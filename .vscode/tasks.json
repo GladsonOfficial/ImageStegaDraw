@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "My Task",
+            "command": "${command:python.interpreterPath}",
+            "type": "shell",
+            "args": ["main.py"],
+            "presentation": {
+                "reveal": "always",
+                "focus": true
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

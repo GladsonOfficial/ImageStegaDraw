@@ -1,1 +1,6 @@
 .venv/
+rough/
+output/
+__pycache__/
+build/
+dist/
